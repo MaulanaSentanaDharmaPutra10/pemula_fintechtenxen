@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-slate-100
+}
+
+.success {
+    @apply bg-gradient-to-r from-green-500 to-green-600
+}
